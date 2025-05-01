@@ -42,7 +42,7 @@ struct ContentView: View {
                 }
                 
                 // User location
-                UserAnnotation()
+//                UserAnnotation()
             }
             .mapStyle(.standard)
             .ignoresSafeArea()
@@ -106,8 +106,6 @@ struct ContentView: View {
                     )
                     .padding()
                 }
-                .transition(.move(edge: .bottom))
-                .animation(.spring(), value: selectedPlace)
             }
         }
     }
